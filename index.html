@@ -1,0 +1,476 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head> 
+
+<body id="body">
+    <!-- navbar -->
+    <div class="navbar-fixed" id="1">
+        <nav class="white" id="a">
+            <div class="nav-wrapper container">
+                <a href="#" id="a" class="brand-logo black-text">Boldoo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="black-text" onclick="home()">Home</a></li>
+                    <li><a class="black-text" onclick="photos()">Photos</a></li>
+                    <li><a class="black-text" onclick="project()">Small Projects</a></li>
+                    <li><a class="black-text" onclick="hobby()">Hobby</a></li>
+                    <li><a class="black-text" onclick="contact()">Contact</a></li>
+                    <li class="li">
+                        <a href="#" id="last">
+                            <div class="switch" id="switch">
+                                <label>
+                  Dark Mode
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                </label>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+                    <i class="material-icons black-text black-text">menu</i>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="cont" id="dark1">
+        <div class="container" id="conta">
+            <div class="bg-image">
+                <a id="butt" target="_blank" href="https://www.instagram.com/bo_dn12/">instagram</a>
+                <img src="img/aet.jpg" id="dark2" height="100%" width="100%">
+                <div class="bg-text">
+                    <h2 id="hello">Hello</h2>
+                    <h1 style="font-size:50px" id="hello">I am Bold-Erdene</h1>
+                    <p id="hello2">And I'm a Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+
+    <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!">
+            <h4 class="white-text">Small Projects</h4> <img src="img/code.jpeg" id="back">
+        </a>
+        <a class="carousel-item" href="#two!">
+            <h4 class="white-text">Photos</h4> <img src="img/zaisan2.jpg" id="back">
+        </a>
+        <a class="carousel-item" href="#three!">
+            <h4 class="white-text">Hobby</h4> <img src="img/back2.jpg" id="back">
+        </a>
+    </div>
+
+    <!-- photo-header -->
+
+    <div class="photo-header truncate" id="2">
+        <div class="shahaa"></div>
+        <h2 id="ph-header">Photos</h2>
+        <i id="camera" class="material-icons">camera_alt</i>
+    </div>
+
+    <!-- photo -->
+
+    <div class="contain-photos row">
+        <div class="threphot container">
+            <div class="row">
+                <div class="box col s10 offset-s1 l4" id="box1">
+                    <div class="cardee z-depth-5">
+                        <div class="front"><img src="img/insta.jpg" height="100%" width="100%"></div>
+                        <div class="back">
+                            <div class="details">
+                                <a href="https://www.instagram.com/p/B21ZjqNBg0j/"><img src="img/heart.png" width="50%" width="50%"></a>
+                            </div>
+                        </div>
+                        <div class="card-action">
+                        </div>
+                    </div>
+                </div>
+                <div class="box col s10 offset-s1 l4" id="box2">
+                    <div class="cardee z-depth-5">
+                        <div class="front"><img src="img/insta2.jpg" height="100%" width="100%"></div>
+                        <div class="back">
+                            <div class="details">
+                                <a href="https://www.instagram.com/p/B8OBp04pu9g/"><img src="img/heart.png" width="50%" width="50%"></a>
+                            </div>
+                        </div>
+                        <div class="card-action">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="box col s10 offset-s1 l4" id="box3">
+                    <div class="cardee z-depth-5">
+                        <div class="card-image">
+                            <img src="img/not available.png" height="100%" width="100%">
+                        </div>
+                        <div class="card-action">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- project -->
+
+    <div class="project-header truncate" id="3">
+        <div class="shahaa"></div>
+        <h2 id="prj-header">Small-Project</h2>
+        <i id="computer" class="material-icons">computer</i>
+    </div>
+    <div class="project-contain">
+        <div class="container">
+
+            <h1 class="xyz">XYZ</h1>
+            <a href="https://moen-22130.firebaseapp.com/" target="_blank" class="waves-light btn-small black pulse ">Check out</a>
+        </div>
+        <div class="tom-con z-depth-2">
+        <div class="container">
+            <div class="zurag">
+                <img src="img/Screen Shot 2020-02-05 at 21.35.43.png" height="500px" width="270px">
+                <div class="shah"></div>
+                <h5 id="text" class="text center">Each step of learning a new language requires memorizing new words. But the XYZ team has developed an English-language memorization app that will easily solve this problem. 
+                    The team's built-in app lets you easily memorize and memorize English words. 
+                    Compared to other apps of this type, it has a simple and intuitive structure, and you can learn new words by logging in to your social accounts and play multiplayer. It also has a "Dark Mode" feature, 
+                    which is being added to most apps lately.</h5>
+                    
+            </div>
+            <h3 class="right-align red-text">Not available for computer</h3>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- hobby header  -->
+
+    <div class="hobby-header truncate" id="4">
+        <div class="shahaa"></div>
+        <h2 id="ho-header">Hobby</h2>
+        <i id="game" class="material-icons">videogame_asset</i>
+    </div>
+    <!-- hobby container  -->
+    <div class="hobby-contain">
+        <section></section>
+        <div class="tom-model">
+        <div class="model">
+            <div class="cs-go">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div id="ex1" class="modal">
+                    <div class="backa">
+                        <div class="zuune">
+                            <img src="img/left go.png" width="100%" height="100%">
+                        </div>
+                        <div class="baruune">
+                            <img src="img/right bulan.png" height="40%" width="100%">
+                            <img src="img/baruun door.png" height="40%" width="100%">
+                        </div>
+                    </div>
+                </div>
+                <a href="#ex1" rel="modal:open" ><img src="img/cs go model.png" width="80%" height="80%"></a>
+            </div>
+            <div class="cs-go">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div id="ex2" class="modal">
+                    <div class="backa3">
+                        <div class="zuunee">
+                            <img src="img/dota3.png" id="dot">
+                        </div>
+                        <div class="baruunee">
+                            <img src="img/doto.png" id="dot2">
+                            <img src="img/dota2.png" id="dot3">
+                        </div>
+                    </div>
+                </div>
+                <a href="#ex2" rel="modal:open"><img src="img/dota 2 model.png" width="80%" height="80%"></a>
+                
+            </div>
+            <div class="cs-go">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div id="ex3" class="modal">
+                    <div class="backa2">
+                        <div class="zuuneee">
+                            <img src="img/rainbo!1.png" height="100%" width="100%" >
+                        </div>
+                        <div class="baruuneee">
+                            <img src="img/rainbo!2.png" width="100%" height="50%">
+                            <img src="img/rainbow!3.png" width="100%" height="50%">
+                        </div>
+                    </div>
+                </div>
+                <a href="#ex3" rel="modal:open"><img src="img/rainbo model.png" width="80%" height="80%"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<img src="img/dood rainbo.jpg" width="100%">
+<!-- contact -->
+
+<div class="contact" id="5">
+        <div class="zu">
+            <div class="c">
+                <h1 id="co" class="co black-text">Contact</h1>
+            </div>
+            <div class="keepint">
+                <h5 id="kit">keep in touch</h5>
+            </div>
+            <div class="SM">
+                <ul id="aa">
+                    <li id="bb">
+                        <a id="cc1" href="https://www.facebook.com/boldoo.zolbayar.5" target="_blank">
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li id="bb">
+                        <a id="cc2" href="https://steamcommunity.com/id/bo_dn/" target="_blank">
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <i class="fa fa-steam" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li id="bb">
+                        <a id="cc3" href="https://www.instagram.com/bo_dn12/" target="_blank">
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <span id="dd"></span>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ba">
+            <div id="cantain" class="container">
+                <div class="niit">
+                <div class="location">
+                    <i id="ic1" class="material-icons black-text">location_on</i>
+                    <h5 id="mon1" class="black-text">Ulaanbaatar, Mongolia</h5>
+                </div>
+                <div class="number">
+                    <i id="ic2" class="material-icons black-text">phone</i>
+                    <h5 id="mon2" class="black-text">+976 94162323</h5>
+                </div>
+                <div class="student">
+                    <i id="ic3" class="material-icons black-text">computer</i>
+                    <h5 id="mon3" class="black-text">Student at Nest academy</h5>
+                </div>
+            </div>
+            </div>
+        </div>
+</div>
+
+    <script type="text/javascript">
+        $(window).scroll(function() {
+            if ($(window).width() > 1200) {
+                var scroll_position = $(window).scrollTop() / 2.5;
+            } else {
+                if ($(window).width() < 500) {
+                    var scroll_position = $(window).scrollTop() / 3.5;
+                } else {
+                    if (900 < $(window).width() > 650) {
+                        var scroll_position = $(window).scrollTop() / 3;
+                    } else {
+                        var scroll_position = $(window).scrollTop() / 2.5;
+                    }
+                }
+            }
+            $('section').css({
+                'background-position-x': +scroll_position + 'px'
+            })
+        })
+    </script>
+
+    <!-- menu -->
+    <ul id="mobile-demo" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="img/pro.jpg" id="usr">
+                </div>
+                <a href="#user"><img id="usr" class="circle" src="img/pro.jpg"></a>
+                <a href="#name"><span id="nme" class="white-text name">Bold-Erdene</span></a>
+                <a href="#email"><span id="mail" class="white-text email">bolderdenez40@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a id="md1" onclick="home()">Home</a></li>
+        <li><a id="md2" onclick="photos()">Photos</a></li>
+        <li><a id="md3" onclick="project()">Small Projects</a></li>
+        <li><a id="md4" onclick="hobby()">Hobby</a></li>
+        <li><a id="md5" onclick="contact()">Contact</a></li>
+        <li class="li">
+            <a href="#" id="last">
+                <div class="switch" id="switch">
+                    <label>
+      Dark mode
+      <input type="checkbox">
+      <span class="lever"></span>
+    </label>
+                </div>
+            </a>
+        </li>
+    </ul>
+
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // START YOUR JS HERE
+            const elemsBtns = document.querySelectorAll(".fixed-action-btn");
+            const floatingBtn = M.FloatingActionButton.init(elemsBtns, {
+                direction: "left",
+                hoverEnabled: false
+            });
+
+            // Navbar
+
+            const elemsSidenav = document.querySelectorAll(".sidenav");
+            const instancesSidenav = M.Sidenav.init(elemsSidenav, {
+                edge: "left"
+            });
+
+            // SLIDER OPTION
+            let slider_options = {
+                    indicators: false,
+                    height: 500,
+                    transition: 500,
+                    interval: 6000
+                }
+                // CAROUSEL
+            let elemsCarousel = document.querySelectorAll(".carousel.carousel-slider")
+            var instance = M.Carousel.init(elemsCarousel, {
+                fullWidth: true,
+                indicators: true,
+            })
+            autoplay()
+
+            function autoplay() {
+                $('.carousel').carousel('next')
+                setTimeout(autoplay, 3000);
+            }
+        });
+    </script>
+    <script>
+       $(document).ready(function() {
+  $("input").change(function() {
+    if($(this).is(":checked")) {
+      document.getElementById('dark1').style.backgroundColor = '#5f3e52'
+      document.getElementById('dark2').src = 'img/dark.jpg'
+      document.getElementById('2').style.backgroundColor = 'black'
+      document.getElementById('ph-header').style.color = 'white'
+      document.getElementById('camera').style.color = 'white'
+      document.getElementById('body').style.backgroundColor = 'rgb(23, 23, 23)'
+      document.getElementById('3').style.backgroundColor = 'black'
+      document.getElementById('prj-header').style.color = 'white'
+      document.getElementById('computer').style.color = 'white'
+      document.getElementById('box1').style.backgroundColor = 'rgb(23, 23, 23)'
+      document.getElementById('box2').style.backgroundColor = 'rgb(23, 23, 23)'
+      document.getElementById('box3').style.backgroundColor = 'rgb(23, 23, 23)'
+      document.getElementById('text').style.color = 'white'
+      document.getElementById('4').style.backgroundColor = 'black'
+      document.getElementById('ho-header').style.color = 'white'
+      document.getElementById('game').style.color = 'white'
+      document.getElementById('5').style.backgroundColor = 'black'
+      document.getElementById('co').style.setProperty('color', 'white', 'important')
+      document.getElementById('kit').style.color = 'white'
+      document.getElementById('cc1').style.color = "white";
+      document.getElementById('cc2').style.color = "white";
+      document.getElementById('cc3').style.color = "white";
+      document.getElementById('mon1').style.setProperty('color', 'white', 'important')
+      document.getElementById('mon2').style.setProperty('color', 'white', 'important')
+      document.getElementById('mon3').style.setProperty('color', 'white', 'important')
+      document.getElementById('ic1').style.setProperty('color', 'white', 'important')
+      document.getElementById('ic2').style.setProperty('color', 'white', 'important')
+      document.getElementById('ic3').style.setProperty('color', 'white', 'important')
+      document.getElementById('mobile-demo').style.setProperty('background-color', 'rgb(23, 23, 23)', 'important')
+      document.getElementById('md1').style.setProperty('color', 'white', 'important')
+      document.getElementById('md2').style.setProperty('color', 'white', 'important')
+      document.getElementById('md3').style.setProperty('color', 'white', 'important')
+      document.getElementById('md4').style.setProperty('color', 'white', 'important')
+      document.getElementById('md5').style.setProperty('color', 'white', 'important')
+      document.getElementById('nme').style.setProperty('color', 'white', 'important')
+      document.getElementById('mail').style.setProperty('color', 'white', 'important')
+      document.getElementById('usr').src = 'img/dood rainbo.jpg'
+        
+
+
+    }
+    else {
+      document.getElementById('dark1').style.backgroundColor = 'cornsilk'
+      document.getElementById('dark2').src = 'img/aet.jpg'
+      document.getElementById('2').style.backgroundColor = '#fff8dc'
+      document.getElementById('ph-header').style.color = 'black'
+      document.getElementById('camera').style.color = 'black'
+      document.getElementById('body').style.backgroundColor = 'white'
+      document.getElementById('3').style.backgroundColor = '#fff8dc'
+      document.getElementById('prj-header').style.color = 'black'
+      document.getElementById('computer').style.color = 'black'
+      document.getElementById('box1').style.backgroundColor = 'white'
+      document.getElementById('box2').style.backgroundColor = 'white'
+      document.getElementById('box3').style.backgroundColor = 'white'
+      document.getElementById('text').style.color = 'black'
+      document.getElementById('4').style.backgroundColor = '#fff8dc'
+      document.getElementById('ho-header').style.color = 'black'
+      document.getElementById('game').style.color = 'black'
+      document.getElementById('5').style.backgroundColor = '#fff8dc'
+      document.getElementById('co').style.setProperty('color', 'black', 'important')
+      document.getElementById('kit').style.color = 'black';
+      document.getElementById('cc1').style.color = "black";
+      document.getElementById('cc2').style.color = "black";
+      document.getElementById('cc3').style.color = "black";
+      document.getElementById('mon1').style.setProperty('color', 'black', 'important')
+      document.getElementById('mon2').style.setProperty('color', 'black', 'important')
+      document.getElementById('mon3').style.setProperty('color', 'black', 'important')
+      document.getElementById('ic1').style.setProperty('color', 'black', 'important')
+      document.getElementById('ic2').style.setProperty('color', 'black', 'important')
+      document.getElementById('ic3').style.setProperty('color', 'black', 'important')
+      document.getElementById('mobile-demo').style.setProperty('background-color', 'white', 'important')
+      document.getElementById('md1').style.setProperty('color', 'black', 'important')
+      document.getElementById('md2').style.setProperty('color', 'black', 'important')
+      document.getElementById('md3').style.setProperty('color', 'black', 'important')
+      document.getElementById('md4').style.setProperty('color', 'black', 'important')
+      document.getElementById('md5').style.setProperty('color', 'black', 'important')
+      document.getElementById('nme').style.setProperty('color', 'black', 'important')
+      document.getElementById('mail').style.setProperty('color', 'black', 'important')
+      document.getElementById('usr').src = 'img/pro.jpg'
+    }
+  })
+});
+
+    </script>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</html>

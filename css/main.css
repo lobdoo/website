@@ -734,6 +734,7 @@
 
 .text {
     height: 470px;
+    width: 500px;
 }
 .tom-con {
     justify-content: center;
@@ -1233,4 +1234,8 @@
     #mail {
         color: black !important;
     }
+}
+.zur {
+    height: 500px;
+    width: 270px;
 }
